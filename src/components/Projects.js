@@ -6,6 +6,7 @@ import html from '../assets/img/html.svg';
 import php from '../assets/img/php.svg';
 import kiki from '../assets/img/kiki.png';
 import react from '../assets/img/react.svg';
+import owl from '../assets/img/owl.png';
 
 export const Projects = () => {
     return(
@@ -33,7 +34,7 @@ export const Projects = () => {
                 {/* <div className="gitLogo">
                 <a href="https://github.com/Asiaalrajeh"><img src={github} alt="github icon" /></a>
                 </div> */}
-                <img src={tic} alt="project image" id='proImg'/>
+                <img src={owl} alt="project image" id='proImg'/>
                 <h5>Night Owl</h5>
                 <p>Movies website</p>
                 <div className='lang'>

@@ -29,7 +29,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  background-color: #1D1D1F !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -79,14 +79,14 @@ nav.navbar div.container{
   display: inline-flex;
 }
 
-/* need to change in case diffrent screen */
+
 div.me-auto.navbar-nav{ 
   margin-left: 420px;
 }
 
 nav.navbar {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #1D1D1F;
 }
 
 nav.navbar a.navbar-brand {
@@ -264,16 +264,18 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 }
 
 .about {
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 100px;
+   position: relative;
+   padding: 0 60px 100px 60px;
+}
+
+.box {
   background-color: #ddf8f6;
+  opacity: 80%;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  position: relative;
   color: #121212;
-  
+
 }
 
 .about h2{
@@ -295,6 +297,7 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 60px;
 }
 
 .project{
@@ -308,6 +311,7 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   /* border: 0.5px solid rgba(255, 255, 255, 0.5); */
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   margin-top: 20px;
+  
 }
 
 .project p{
@@ -315,6 +319,7 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 }
 .lang{
   background: #ddf8f6;
+  opacity: 88%;
   border-radius: 180px;
   padding: 10px;
 
@@ -330,6 +335,30 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 
 #lanImg{
   width: 40px;
+}
+
+.footer {
+  padding: 10px 0 10px 0;
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 19%, rgba(96,156,204,0.636467086834734) 54%, rgba(246,242,242,1) 100%); */
+  /* background: linear-gradient(103deg, rgba(144,208,234,1) 1%, rgba(28,28,28,1) 100% , rgba(28,28,28,1) 100%);
+  background-image: url('./assets/img/bgp.png'); */
+
+}
+
+.footer img {
+  width: 26%;
+}
+
+#logo{
+  filter: brightness(9) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+
+}
+.footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #B8B8B8;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
 }
 
 

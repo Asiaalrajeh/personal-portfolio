@@ -20,13 +20,13 @@ export const Projects = () => {
                 {/* <div className="gitLogo">
                 <a href="https://github.com/Asiaalrajeh"><img src={github} alt="github icon" /></a>
                 </div> */}
-                <img src={tic} alt="project image" id='proImg'/>
+                <a href='https://asiaalrajeh.github.io/Tic-Tac-Toe/'><img src={tic} alt="project" id='proImg'/> </a>
                 <h5>Tic Tac Toe game</h5>
                 <p>Develop a game with the option of one player vs the computer or two players, with light and dark modes.</p>
                 <div className='lang'>
-                <img src={html} alt="project image" id='lanImg'/>
-                <img src={css} alt="project image" id='lanImg'/>
-                <img src={js} alt="project image" id='lanImg'/>
+                <img src={html} alt="html" id='lanImg'/>
+                <img src={css} alt="css" id='lanImg'/>
+                <img src={js} alt="js" id='lanImg'/>
                 </div>
             </div>
 
@@ -48,7 +48,7 @@ export const Projects = () => {
                 {/* <div className="gitLogo">
                 <a href="https://github.com/Asiaalrajeh"><img src={github} alt="github icon" /></a>
                 </div> */}
-                <img src={kiki} alt="project image" id='proImg'/>
+                 <a href='https://asiaalrajeh.github.io/the-dinosaur-game-CS346/index.html'><img src={kiki} alt="project image" id='proImg'/></a>
                 <h5>Kiki's delivery servies game</h5>
                 <p> Web game where the player controls the main character to avoid obstacles to achieve a higher score.</p>
                 <div className='lang'>

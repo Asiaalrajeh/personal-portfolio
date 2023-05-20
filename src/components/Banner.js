@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import github from '../assets/img/icongithub.svg';
 import linkedin from '../assets/img/iconlinkedin.svg';
 import avatar from '../assets/img/avatar.png';
+import cv from '../assets/img/cv.svg';
+import pdfcv from '../assets/pdf/Asia AlrajehCV.pdf';
 
 
 const rule = `I'm a front end developer`;
@@ -29,6 +31,7 @@ export const Banner = () => {
                     <div className="social-icon">
                      <a href="https://github.com/Asiaalrajeh"><img src={github} alt="github icon" /></a>
                      <a href="https://www.linkedin.com/in/asiaalrajeh/"><img src={linkedin} alt="" /></a>
+                     <a href={pdfcv} ><img src={cv} alt="" id="wh" /></a>
                      </div>
                 </Col>
                 <Col xs={12} md={6} xl={4}>

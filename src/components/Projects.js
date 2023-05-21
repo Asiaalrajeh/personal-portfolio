@@ -36,7 +36,7 @@ export const Projects = () => {
                 </div> */}
                 <img src={owl} alt="project image" id='proImg'/>
                 <h5>Night Owl</h5>
-                <p>Movies website</p>
+                <p>Movies website uses API</p>
                 <div className='lang'>
                <img src={html} alt="project image" id='lanImg'/>
                 <img src={css} alt="project image" id='lanImg'/>

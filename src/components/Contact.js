@@ -1,7 +1,8 @@
-import { ContactInfo } from "./ContactInfo";
+import { ContactInfo} from "./ContactInfo";
 import email from '../assets/img/email.png';
 import phone from '../assets/img/phone.png';
 import location from '../assets/img/location.png';
+import { ContactForm } from "./ContactForm";
 
 
 export const Contact =() => {
@@ -15,7 +16,7 @@ export const Contact =() => {
                   <ContactInfo icon={location} text="Riyadh,Saudi Arabia" />
                 </div>
                 <div className="right">
-
+                    <ContactForm/>
                 </div>
 
             </div>

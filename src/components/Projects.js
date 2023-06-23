@@ -7,8 +7,14 @@ import php from '../assets/img/php.svg';
 import kiki from '../assets/img/kiki.png';
 import react from '../assets/img/react.svg';
 import owl from '../assets/img/owl.png';
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export const Projects = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000});
+       },[]);
     return(
         
         <section className="proSec" id="projects">
@@ -16,7 +22,7 @@ export const Projects = () => {
 
             <div className="projects">
 
-            <div className="project">
+            <div data-aos="flip-left" className="project">
                 {/* <div className="gitLogo">
                 <a href="https://github.com/Asiaalrajeh"><img src={github} alt="github icon" /></a>
                 </div> */}
@@ -30,7 +36,7 @@ export const Projects = () => {
                 </div>
             </div>
 
-            <div className="project">
+            <div data-aos="flip-left" className="project">
                 {/* <div className="gitLogo">
                 <a href="https://github.com/Asiaalrajeh"><img src={github} alt="github icon" /></a>
                 </div> */}
@@ -44,7 +50,7 @@ export const Projects = () => {
                 <img src={react} alt="project image" id='lanImg'/>
                 </div>
             </div>
-            <div className="project">
+            <div data-aos="flip-left" className="project">
                 {/* <div className="gitLogo">
                 <a href="https://github.com/Asiaalrajeh"><img src={github} alt="github icon" /></a>
                 </div> */}

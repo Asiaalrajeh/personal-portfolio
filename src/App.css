@@ -278,8 +278,9 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 
 .box {
   background-color: #ddf8f6;
+  box-shadow: rgba(122, 136, 150, 0.9) 4px 9px 24px inset;
   opacity: 90%;
-  border-radius: 64px;
+  border-radius: 100px;
   text-align: center;
   padding: 60px 50px;
   color: #121212;

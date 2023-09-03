@@ -7,7 +7,7 @@ import cv from '../assets/img/cv.svg';
 import pdfcv from '../assets/pdf/Asia AlrajehCV.pdf';
 
 
-const rule = `I'm a front end developer`;
+const rule = `I'm a front-end web developer`;
 export const Banner = () => {
   const [typed, setTyped] = useState('');
 
@@ -23,6 +23,10 @@ export const Banner = () => {
       <section className="banner" id="home">
         <Container>
             <Row className="align-items-center">
+            <Col xs={12} md={6} xl={4}>
+                  <img src={avatar} alt="Avatar img" id="avatar"></img>
+                  
+                </Col>
                 <Col xs={12} md={6} xl={7}>
                     <span className="tagline">Welcome to my portfolio</span>
                     <h2>Hellooo! I'm Asia Alrajeh </h2>
@@ -34,10 +38,7 @@ export const Banner = () => {
                      <a href={pdfcv} ><img src={cv} alt="" id="wh" /></a>
                      </div>
                 </Col>
-                <Col xs={12} md={6} xl={4}>
-                  <img src={avatar} alt="Avatar img" id="avatar"></img>
-                  
-                </Col>
+                
             </Row>
         </Container>
       </section>

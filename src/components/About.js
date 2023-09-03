@@ -11,7 +11,7 @@ export const About = () => {
         <section className="about" id="about">
             <div data-aos="fade-up" className="box">
                 <h2>About</h2>
-                <h5>I'm senior computer science student at Al-imam muhammed bin saud university, highly motivated who seeks new challenges and opportunities to expand my skills.  </h5>
+                <h5> Computer Science fresh graduate with a passion for front-end development, the desire to create visually appealing,user-friendly,and efficient web experiences, and the ambition to continuously learn and embrace new challenges.  </h5>
               
             </div>
 

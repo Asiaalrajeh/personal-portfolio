@@ -1,12 +1,12 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { useState, useEffect } from 'react';
+// import { useState} from 'react';
 import logo from '../assets/img/logo.png';
 
 
 export const NavBar = () => {
-    const {activeLink, setActivLink} = useState('home');
+    // const {activeLink, setActivLink} = useState('home');
     // const {scrolled, setScrolled} = useState(false);
 
     // useEffect(()=> {
@@ -23,9 +23,9 @@ export const NavBar = () => {
     //     return () => window.removeEventListener("scroll",onscroll);
     // },[])
 
-    const onUpdateActiveLink = (value) => {
-        setActivLink(value);
-      }
+    // const onUpdateActiveLink = (value) => {
+    //     setActivLink(value);
+    //   }
     
     return(
         <Navbar expand="lg" >

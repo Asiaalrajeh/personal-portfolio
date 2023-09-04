@@ -295,7 +295,7 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   }
   
   .banner{
-    padding: 70px 0;
+    padding: 100px 0;
   }
   #avatar{
     width: 180px;
@@ -544,6 +544,9 @@ button[type = 'submit']:hover{
 
 @media screen and (max-width:768px) {
  
+  .proSec{
+    margin-top: 70px
+  }
   div.me-auto.navbar-nav{ 
     margin-left: 0;
   }

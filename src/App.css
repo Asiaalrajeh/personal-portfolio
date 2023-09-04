@@ -295,8 +295,13 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   }
   
   .banner{
-    padding: 20px 0 50px 0;
+    padding: 70px 0;
   }
+  #avatar{
+    width: 180px;
+    height: 230px;
+  }
+
 }
 
 .about h2{
@@ -324,7 +329,7 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 .project{
   width: 350px;
   height: 430px;
-  padding: 20px 10px 20px 10px;
+  padding: 15px 10px 20px 10px;
   border-radius: 30px;
   /* background: white; */
   /* background: linear-gradient(to right bottom , rgb(255,255,255,0.8),rgb(255,255,255,0.3)); */
@@ -536,3 +541,19 @@ button[type = 'submit']:hover{
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width:768px) {
+ 
+  div.me-auto.navbar-nav{ 
+    margin-left: 0;
+  }
+  .project{
+   width: 300px;
+  }
+
+  #proImg{
+    width: 280px;
+    height: 200px;
+}
+}
+

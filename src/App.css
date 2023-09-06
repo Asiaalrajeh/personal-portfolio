@@ -318,6 +318,10 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   margin-bottom: 30px;
 
 }
+.proSec {
+  margin-top: 100px 
+}
+
 
 .projects{
   display: flex;
@@ -477,6 +481,10 @@ button[type = 'submit']:hover{
     padding: 0 30px 0 30px;
   }
   
+}
+
+.disclaimer{
+  font-weight: Bold;
 }
 .footer {
   padding: 10px 0 10px 0;

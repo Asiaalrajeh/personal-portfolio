@@ -11,7 +11,9 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
+
 export const Projects = () => {
+
     useEffect(() => {
         Aos.init({ duration: 2000});
        },[]);
@@ -28,7 +30,7 @@ export const Projects = () => {
                 </div> */}
                 <a href='https://asiaalrajeh.github.io/Tic-Tac-Toe/'><img src={tic} alt="project" id='proImg'/> </a>
                 <h5>Tic Tac Toe game</h5>
-                <p>Develop a game with the option of one player vs the computer or two players, with light and dark modes.</p>
+                <p> A game with the option of 1 player or 2 players, and choice of light or dark mode</p>
                 <div className='lang'>
                 <img src={html} alt="html" id='lanImg'/>
                 <img src={css} alt="css" id='lanImg'/>
@@ -40,9 +42,9 @@ export const Projects = () => {
                 {/* <div className="gitLogo">
                 <a href="https://github.com/Asiaalrajeh"><img src={github} alt="github icon" /></a>
                 </div> */}
-                <img src={owl} alt="night owl website" id='proImg'/>
+               <a href='https://github.com/Asiaalrajeh/Movies-Website'><img src={owl} alt="night owl website" id='proImg'/></a> 
                 <h5>Night Owl</h5>
-                <p>Movies website uses API</p>
+                <p>Movies library website taht uses API to get movies data</p>
                 <div className='lang'>
                <img src={html} alt="html" id='lanImg'/>
                 <img src={css} alt="css" id='lanImg'/>
@@ -56,7 +58,8 @@ export const Projects = () => {
                 </div> */}
                  <a href='https://asiaalrajeh.github.io/the-dinosaur-game-CS346/index.html'><img src={kiki} alt="kiki game website" id='proImg'/></a>
                 <h5>Kiki's delivery servies game</h5>
-                <p> Web game where the player controls the main character to avoid obstacles to achieve a higher score.</p>
+                <p> Help kiki to avoid the obstecals by pressing Tab or saying the word "UP"</p>
+                <p className='disclaimer'>For best experience open it in your PC</p>
                 <div className='lang'>
                 <img src={html} alt="html" id='lanImg'/>
                 <img src={css} alt="css" id='lanImg'/>

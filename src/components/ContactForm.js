@@ -1,13 +1,23 @@
 import React,{ useState} from "react";
+import emailjs from '@emailjs/browser';
 
 export const ContactForm =() => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [msg, setMsg] = useState('');
 
+    const sendEmail = (e) => {
+       // console.log("test");
+        e.preventDefault();
+        emailjs.sendForm('service_16kfnuz', 'template_pbpcbhb',e.target,'gJBJOr_Vpw09Uw07K');
+        setName("");
+        setEmail("");
+        setMsg("");
+    }
+
     return(
        <div>
-        <form>
+        <form onSubmit={sendEmail}>
             <div className="form-field">
                 <label htmlFor="name">
                     Your name
@@ -26,7 +36,7 @@ export const ContactForm =() => {
                     <input
                     type="text"
                     id="email"
-                    name="email"
+                    name="emailFrom"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     />

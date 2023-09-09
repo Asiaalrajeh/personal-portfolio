@@ -4,7 +4,7 @@ import github from '../assets/img/icongithub.svg';
 import linkedin from '../assets/img/iconlinkedin.svg';
 import avatar from '../assets/img/avatar.png';
 import cv from '../assets/img/cv.svg';
-import pdfcv from '../assets/pdf/Asia AlrajehCV.pdf';
+import pdfcv from '../assets/pdf/Asia_cv.pdf';
 
 
 const rule = `I'm a front-end web developer`;

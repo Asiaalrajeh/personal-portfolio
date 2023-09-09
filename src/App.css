@@ -485,6 +485,7 @@ button[type = 'submit']:hover{
 
 .disclaimer{
   font-weight: Bold;
+  margin-bottom: 0;
 }
 .footer {
   padding: 10px 0 10px 0;

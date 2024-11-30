@@ -417,6 +417,14 @@ label{
   text-align: left;
 }
 
+#emailLabel{
+  margin-left: -20px;
+}
+
+#nameLabel{
+  margin-left: -20px;
+}
+
 input,textarea{
   width: 100%;
   font-size: 23px;

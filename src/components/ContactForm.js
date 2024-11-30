@@ -19,7 +19,7 @@ export const ContactForm =() => {
        <div>
         <form onSubmit={sendEmail}>
             <div className="form-field">
-                <label htmlFor="name">
+                <label id= "nameLabel" htmlFor="name">
                     Your name
                     <input
                     type="text"
@@ -31,7 +31,7 @@ export const ContactForm =() => {
                 </label>
             </div>
             <div className="form-field">
-                <label htmlFor="email">
+                <label id= "emailLabel" htmlFor="email">
                     Your email
                     <input
                     type="text"

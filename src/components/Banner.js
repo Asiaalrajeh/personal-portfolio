@@ -4,10 +4,10 @@ import github from '../assets/img/icongithub.svg';
 import linkedin from '../assets/img/iconlinkedin.svg';
 import avatar from '../assets/img/avatar.png';
 import cv from '../assets/img/cv.svg';
-import pdfcv from '../assets/pdf/AsiaCV.pdf';
+import pdfcv from '../assets/pdf/AsiaAlrajehCV.pdf';
 
 
-const rule = `I'm a front-end web developer`;
+const rule = `I'm a Software Engineer`;
 export const Banner = () => {
   const [typed, setTyped] = useState('');
 
